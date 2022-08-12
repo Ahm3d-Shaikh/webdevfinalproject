@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/tailwind.css">
+    <script src="https://kit.fontawesome.com/378b21b147.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-bl from-violet-500 to-fuchsia-500 h-screen">
+    <div class="flex full-width h-screen justify-center items-center">
+        <form action="/login" method="POST" class="w-1/2 m-auto bg-white p-6 flex flex-col py-12 px-12">
+            <h1 class="text-4xl bold m-1.5 text-center font-serif text-#21243D"><i class="fa-solid fa-right-to-bracket px-2"></i>Login</h1>
+            <input type="text" name="fullname" placeholder="Enter your full name here" class="px-6 py-3 border w-full mb-1 text-#21243D">
+            <input type="password" name="password" placeholder="Enter your password here" class="px-6 py-3 border w-full mb-2 text-#21243D">
+            <input type="submit" value="Login" class="p-3 bg-blue-600 hover:bg-blue-800 text-white w-full cursor-pointer">
+            
+            <a href="/signup.html" class="text-blue-500 hover:text-blue-800 underline hover:no-underline text-center mt-3">Don't have an account? Click here to Sign Up</a>
+        
+        </form>
+    </div>
+</body>
+</html>

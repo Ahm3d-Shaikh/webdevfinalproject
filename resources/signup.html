@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="/css/tailwind.css">
+    <script src="https://kit.fontawesome.com/378b21b147.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-br from-cyan-500 to-blue-500 h-screen">
+    <div class="flex full-width h-screen justify-center items-center">
+        <form action="/signup" method="POST" class="w-1/2 m-auto bg-white p-6 flex flex-col py-12 px-12">
+            <h1 class="text-4xl bold m-1.5 text-center font-serif text-#21243D"><i class="fa-solid fa-user-plus px-2"></i>Signup</h1>
+            <input type="text" name="fullname" placeholder="Enter your full name here" class="px-6 py-3 border w-full mb-1 text-#21243D">
+            <input type="password" name="password" placeholder="Enter your password here" class="px-6 py-3 border w-full mb-1 text-#21243D">
+            <input type="number" name="age" placeholder="Enter your age here" class="px-6 py-3 border w-full mb-1 text-#21243D">
+            <input type="text" name="major" placeholder="Enter your major here" class="px-6 py-3 border w-full mb-2 text-#21243D">
+            <input type="submit" value="Sign Up" class="p-3 bg-blue-600 hover:bg-blue-800 text-white w-full cursor-pointer">
+        </form>
+    </div>
+</body>
+</html>
